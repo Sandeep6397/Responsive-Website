@@ -20,8 +20,6 @@ body{
     width: 105.1%;
     text-align: left;
     padding: 1rem;
-    
-
 }
 .header_items{
     width: 100%;
@@ -30,8 +28,7 @@ body{
 
 .menu{
     display: inline-block;
-    margin: 2rem 1rem;
-   
+    margin: 2rem 1rem;  
 }
 .link{
     cursor: pointer;
@@ -51,7 +48,6 @@ body{
     flex-wrap: wrap;
     display: flex;
     padding: 2rem;
-
 }
 .im{
     background-color: darkgoldenrod;
@@ -62,8 +58,6 @@ body{
     margin-top: 2rem;
     margin-bottom: 2rem;
     border-radius: 3%;
-    
-
 }
 .food_img{
     width: 20rem;
@@ -78,8 +72,7 @@ h5{
     text-align: center;  
 }
 h6{
-    display: inline;
-    
+    display: inline;   
 }
 #offer{
     color: firebrick;
@@ -110,8 +103,6 @@ button:hover{
         width: 102.5%;
         text-align: left;
         padding: 1rem;
-        
-    
     }
     .header_items{
         width: 100%;
@@ -133,7 +124,6 @@ button:hover{
     .link:focus{
         color: aliceblue;
     }
-    
     .img{
         background-color: dimgrey;
         width: 100%;
@@ -152,8 +142,6 @@ button:hover{
         margin-top: 2rem;
         margin-bottom: 2rem;
         border-radius: 3%;
-        
-    
     }
     .food_img{
         width: 20rem;
@@ -192,24 +180,20 @@ button:hover{
     button:hover{
         background-color:  rgb(25, 247, 73);
     }
-
 }
-
 @media(min-width:1024px){
     .header{
         background-color: rgb(10, 197, 10);
         height: 6rem;
         width: 102%;
         text-align: left;
-        padding: 1rem;
-        
+        padding: 1rem;       
     
     }
     .header_items{
         width: 100%;
         background-color: rgb(10, 197, 10);
-    }
-    
+    }   
     .menu{
         display: inline-block;
         margin: 2rem 1rem;
@@ -284,9 +268,4 @@ button:hover{
     button:hover{
         background-color:  rgb(25, 247, 73);
     }
-
 }
-
-
-
-
