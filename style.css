@@ -12,14 +12,17 @@ div{
 }
 body{
     overflow-x: hidden;
+    width: 100%;
+    background-color: dimgrey;
 }
 
 .header{
     background-color: rgb(10, 197, 10);
-    height: 6rem;
-    width: 105.1%;
+    height: 19%;
+    width: 100%;
     text-align: left;
     padding: 1rem;
+    
 }
 .header_items{
     width: 100%;
@@ -39,6 +42,10 @@ body{
 }
 .link:focus{
     color: aliceblue;
+}
+.body{
+    width: 100%;
+    background-color: dimgrey;
 }
 
 .img{
@@ -81,7 +88,7 @@ h6{
     padding-left: 1rem;
 }
 button{
-    background-color:green;;
+    background-color:green;
     color: black;
     font-weight: bolder;
     padding: 0.5rem;

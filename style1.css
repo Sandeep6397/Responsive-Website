@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: sans-serif;
+}
+h5{
+    display: block;
+    text-align: center;
+    font-weight:900;
+    font-size: large;
+}
+h6{
+    text-align: left;
+    font-weight: bold;
+    font-size: large;
+    padding-left: 10px;
+}
+button{
+    background-color:green;
+    color: black;
+    font-weight: bolder;
+    padding: 10px 25px 10px 25px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: 36%;
+    margin-bottom: 6px;
+    
+    
+}
+button:hover {
+    background-color:  rgb(25, 247, 73);
+}
+button:focus{
+    background-color: rgb(119, 179, 132);
+}
+#offer{
+    color: red;
+    font-size: medium;
+    text-align: left;
+    padding-left: 20px;
+}
+.header_items{
+    width: 100%;
+}
+
+.header{
+    background-color: rgb(10, 197, 10); 
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5%;
+    gap: 10%;
+
+}
+
+.menu{
+    color: rgb(223, 67, 10);
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer; 
+}
+.link{
+    text-decoration: none;   
+}
+
+.menu:hover{   
+    color: blue;
+}
+.menu:focus{
+    color: #f0f8ff;
+}
+
+.body{
+    width: 100%;
+}
+.img{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    
+
+}
+.im{
+    background-color: darkgoldenrod;;
+    width: 290px;
+    height: max-content;
+    border: 2px solid black;
+    margin: 10% 10% 10% 10% ;
+    border-radius: 10px;
+
+    
+}
+.food_img{
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px 17px;
+    border-radius: 10px;
+    
+}
+
+@media (min-width:786px){
+    .header_items{
+        width: 100%;
+    }
+    
+    .body{
+        
+        width: 100%;
+
+    }
+    .img{ 
+        width: 100%;
+        
+
+    }
+    .im{
+        background-color: darkgoldenrod;
+        width: 10%;
+        height: 20%;
+        display: flex;
+        display: inline-block;
+        
+    }
+    .food_img{
+        width: 10%;
+        height: 20%;
+    }
+
+}
